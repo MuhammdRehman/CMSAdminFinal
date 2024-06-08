@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
 import { RxCross1 } from "react-icons/rx";
-
+import "./Adminstyle/navbar.css";
 import { fs, auth } from "../Config/Config";
 
 const GetcurrUser = () => {

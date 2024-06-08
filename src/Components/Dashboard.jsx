@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { fs } from '../Config/Config';
-
+import "./Adminstyle/dashboard.css";
 
 const Dashboard = () => {
   const [totalProjects, setTotalProjects] = useState(0);

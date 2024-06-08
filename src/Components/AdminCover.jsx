@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-//import "./Adminstyle//adminPage.css";
+import "./Adminstyle//adminPage.css";
 import { auth } from '../Config/Config';
 
 const AdminCover = () => {

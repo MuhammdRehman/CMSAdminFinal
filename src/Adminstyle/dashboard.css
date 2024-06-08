@@ -1,0 +1,94 @@
+.dashboard {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-heading {
+  margin: 18px auto;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 900;
+  background-color: #142c1a;
+  color: #e0ffe9;
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(100% - 13%);
+}
+
+.statheading {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.stats-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #e0ffe9;
+  border-radius: 9px;
+  padding: 20px;
+  width: calc(31.333% - 70px);
+  box-shadow: 0 4px 8px rgba(5, 5, 5, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+  box-shadow: 1px 1px 12px black;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card .title,
+.wide-card .title {
+  font-size: large;
+  margin-bottom: 10px;
+  background-color: #003a10;
+  padding: 8px;
+  border-radius: 8px;
+  color: #d1ffe2;
+  font-weight: 800;
+}
+
+.card .total,
+.wide-card .total {
+  font-size: 2em;
+  font-weight: bold;
+  color: #003a10;
+}
+
+/* Responsive styles for wide-card */
+.wide-card {
+  background-color: #e0ffe9;
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(100% - 13%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+  box-shadow: inset 1px 1px 12px black;
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: calc(50% - 70px);
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(100% - 70px);
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
