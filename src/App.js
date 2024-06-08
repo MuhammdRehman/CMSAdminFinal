@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import Dashboard from "./Components/Dashboard";
+import AdminNavbar from "./Components/AdminNavbar";
+import AdminCover from "./Components/AdminCover";
 
-function App() {
+const App = () => {
+  const location = useLocation();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {location.pathname !== '/' && location.pathname !== '/managerlogin' && <AdminNavbar />}
+      <Routes>
+        <Route exact path="/" element={<AdminCover />} />
+        <Route exact path="/dashboard" element={<Dashboard />} />
+      </Routes>
+    </>
   );
-}
+};
 
-export default App;
+const AppWrapper = () => {
+  return (
+    <Router>
+      <App />
+    </Router>
+  );
+};
+
+export default AppWrapper;
