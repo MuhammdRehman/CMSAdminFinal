@@ -9,17 +9,6 @@
      background-size: cover; 
  }
 
- .signup {
-     color: aliceblue;
-     padding: 15px;
-     font-size: x-large;
-     font-weight: 900;
-     border: 3px white solid;
-     border-radius: 15px;
-     width: 30vw;
-     text-align: center;
- }
-
  .form-data {
      display: flex;
      flex-direction: column;
