@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import Dashboard from "./Components/Dashboard";
 import AdminNavbar from "./Components/AdminNavbar";
 import AdminCover from "./Components/AdminCover";
+import RegisterFranchise from "./Components/regFranchise";
 
 const App = () => {
   const location = useLocation();
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<AdminCover />} />
         <Route exact path="/dashboard" element={<Dashboard />} />
+        <Route exact path="/regFranchise" element={<RegisterFranchise />} />
       </Routes>
     </>
   );
