@@ -143,7 +143,7 @@ const Dashboard = () => {
       <div className="dashboard-heading">Overall Stats And Figures</div>
       <div className="stats-cards">
         <div className="card">
-          <div className="title">Total Organizations/Franchises</div>
+          <div className="title">Total Organizations</div>
           <div className="total">{totalFranchises}</div>
         </div>
         <div className="card">
@@ -187,7 +187,7 @@ const Dashboard = () => {
           <div className="total">{completedCampaignsTarget}</div>
         </div>
         <div className="card">
-          <div className="title">Completed Donations Projects/Campaigns</div>
+          <div className="title">Donations from Completed Attempts</div>
           <div className="total">{totalTargetAmount}</div>
         </div>
         <div className="wide-card">

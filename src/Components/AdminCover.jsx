@@ -22,7 +22,7 @@ const AdminCover = () => {
         e.preventDefault();
         if (userType === "Admin" && password === "112233") {
 
-            alert("Redirecting to Admin Dashboard !!");
+            alert("SucessFully Login !!!!!");
             try {
                 await auth.signInWithEmailAndPassword("admin@aisaar.com", password);
                 console.log(auth.currentUser);
