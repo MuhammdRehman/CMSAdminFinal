@@ -1,0 +1,288 @@
+/* Volunteer complain resolvement*/
+.volunteers-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+
+}
+
+.volunteer-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 61, 0);
+    color: white;
+    font-size: x-large;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin-top: 8px;
+}
+
+.complains-container {
+    width: 95vw;
+    padding: 20px 5px;
+}
+
+.complainer {
+    width: 40%;
+    background-color: rgb(0, 49, 0);
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px;
+    margin: 15px auto;
+    font-size: x-large;
+
+}
+.complain-number{
+    background-color: red;
+    border-radius: 6px;
+    padding: 4px 8px;
+    
+}
+.view-complain{
+    background-color: aqua;
+}
+
+.back {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.filter-options {
+    width: 85dvw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(30, 90, 34);
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 800;
+    border-radius: 15px;
+}
+
+.filter-option {
+    cursor: pointer;
+}
+
+.filter-option.active {
+    background-color: rgb(199, 255, 192);
+    color: rgb(0, 68, 8);
+    border-radius: 5px;
+}
+
+.headings {
+    text-align: center;
+    background-color: rgb(0, 52, 16);
+    color: rgb(188, 233, 191);
+    border-radius: 15px;
+    margin: 10px;
+    width: 20%;
+    font-size: x-large;
+    font-weight: 800;
+    padding: 15px;
+}
+
+.table-container {
+    width: 100%;
+    overflow: auto;
+    border-radius: 15px;
+    background-color: rgba(149, 213, 155, 0.711);
+}
+
+.table-body {
+    box-sizing: border-box;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.head {
+    background-color: rgb(0, 66, 2);
+    color: white;
+    font-weight: 700;
+    border: none;
+    /* Remove borders from table cells */
+    border-radius: 50px;
+}
+
+.body {
+    text-align: center;
+}
+
+.table-body::-webkit-scrollbar {
+    height: .5rem;
+    width: .5rem;
+}
+
+.table-body::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: aqua
+}
+
+.table-body th,
+.table-body td {
+    padding: 8px;
+    /* Adjust padding as needed */
+    border: none;
+    /* Remove borders from table cells */
+}
+
+.table-body tr:nth-child(even) {
+    background-color: rgb(201, 255, 206);
+}
+
+.active {
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: medium;
+    font-weight: 800;
+    margin: 8px;
+    background-color: rgb(0, 115, 38);
+    border-radius: 10px;
+
+}
+
+.update-button {
+    border: none;
+    font-weight: 600;
+    color: white;
+    width: 75px;
+    padding: 10px;
+    font-size: medium;
+    background-color: green;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+
+.approve-button {
+    border: none;
+    font-weight: 600;
+    color: white;
+    width: 82px;
+    text-align: center;
+    padding: 10px;
+    font-size: medium;
+    background-color: green;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+
+.delete-button {
+    border: none;
+    font-weight: 600;
+    color: white;
+    width: 75px;
+    padding: 10px;
+    font-size: medium;
+    background-color: red;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+
+.update-button:hover {
+    color: green;
+    background-color: whitesmoke;
+}
+
+.approve-button:hover {
+    color: green;
+    background-color: whitesmoke;
+}
+
+.delete-button:hover {
+    color: red;
+    background-color: whitesmoke;
+}
+
+.search-cont {
+    display: flex;
+    width: 95vw;
+    justify-content: center;
+    padding: 7px;
+    margin-bottom: 6px;
+}
+
+.search-bar {
+    width: 73%;
+    background-color: rgb(0, 53, 24);
+    color: rgb(203, 255, 238);
+    padding: 10px;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 3px rgb(0, 37, 0) solid;
+}
+
+.search-bar::placeholder {
+    color: rgb(205, 255, 238);
+    font-weight: 200;
+    font-style: oblique;
+}
+
+.search-bar-btn {
+    margin-left: 15px;
+    background-color: rgb(0, 37, 0);
+    color: rgb(155, 255, 182);
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 15px;
+}
+
+.volunteer-info {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    width: 80%;
+}
+
+.information {
+    background-color: rgb(205, 255, 215);
+    color: rgb(0, 41, 6);
+    padding: 10px;
+    font-size: x-large;
+    border-radius: 10px;
+    border: 3px rgb(0, 44, 0) solid;
+    box-shadow: 2px 5px 30px rgba(0, 42, 8, 0.452);
+}
+
+@media screen and (max-width: 870px) {
+
+    .headings {
+        width: 50%;
+
+        font-size: larger;
+    }
+
+    .search-bar {
+        padding: 5px;
+        font-size: large;
+    }
+
+    .search-btn {
+        margin-left: 6px;
+        font-size: medium;
+        padding: 5px;
+    }
+
+    .information {
+        font-size: large;
+    }
+
+    .table-container {
+        width: 95vw;
+    }
+
+    .complainer {
+        width: 70%;
+    }
+}
