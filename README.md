@@ -3,6 +3,7 @@
 
 # `Functionalities / Methodology`
 ## To create such a network to streamline Such Functionalities we have implemented following features or methodologies to cater the problem:
+
 ##### Creation and management of franchises, projects, volunteer, campaigns, and beneficiaries.
 ##### Admin registering different franchises holding multiple projects, volunteers and campaigns as well as beneficiaries. 
 ##### Proper authentication system for Franchises, Volunteers, Donors as well as the Admin
