@@ -39,19 +39,9 @@
 ## We need to make account on it and just drag and drop our projects build file
 ## However our project is realistically interactive so data has to be Real-time so that transpaerent action could take Place.
 ## To test the sites you can find Below links:
-## [Aisaar-Client](https://aisaar.netlify.app).
+
 ## [Aisaar-AdminDashboard](https://admin-aisaar.netlify.app).
 
-# `Work Distribution`
-### Our project Contains two portals/sites thus we dividied ourselves into two groups.
-### `Client Site Developer` And `Admin Site Developer`
-## Client Site Developers:
-### `Bazil Suhail` / `BSCS-22072` managed transactional operations(of projects and campaigns) with project applicantion.Testimonial and Complaints registration/making.
-### `Abdullah Masood` / `BSCS-22054` managed authentication of user(volunteer/donor).There profile management and Stat and figures of gallery and Home.
 
-## Admin Site Developers:
-### `Muhammad Rehman` / `BSCS-22018` managed autentication of franchises with creation.Basic crud for Franchises and resolvment of complaints from volunteer.
-### `Ahmad Saleem` / `BSCS-22078` managed operations within franchises.Approving projects,Campaign creation and enrollment of beneficiaries.
-## Admin Email/Password:
 ### admin@aisaar.com
 ### 112233
