@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { auth, fs } from "../Config/Config";
 import "./Adminstyle/tables.css";
 
+
+
 const ApproveProject = () => {
   const [proposedProjects, setProposedProjects] = useState([]); 
   useEffect(() => {
